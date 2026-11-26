@@ -1,0 +1,473 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPdCyX8uhpafmOYOzNwW1af",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Talha1147/talha/blob/main/Python%20Conditional%20Statements%20Practice\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 2,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "_NXMwjrBD6dy",
+        "outputId": "0ac0993c-b570-4bb8-b51b-6e0db8647ff6"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Gym access allowed\n"
+          ]
+        }
+      ],
+      "source": [
+        "daysLeft = 12\n",
+        "\n",
+        "if daysLeft > 0:\n",
+        "    print(\"Gym access allowed\")"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "stock = 3\n",
+        "\n",
+        "if stock < 5:\n",
+        "    print(\"Reorder stock\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "WNT981bCETDV",
+        "outputId": "b6d1cdd9-0eaf-469f-80eb-01e9a58e222d"
+      },
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Reorder stock\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "cartTotal = 500\n",
+        "\n",
+        "if cartTotal >= 1000:\n",
+        "    print(\"Coupon unlocked\")\n",
+        "\n",
+        "print(\"Cart checked\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "8OzoFjYLE2_c",
+        "outputId": "179f8989-0073-45f3-f497-92bfcc076e83"
+      },
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Cart checked\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "age = 10\n",
+        "\n",
+        "if age < 12:\n",
+        "    print(\"Half ticket\")\n",
+        "else:\n",
+        "    print(\"Full ticket\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "zJx4qN-GFBvC",
+        "outputId": "a0f396ae-7e9d-4a1f-db8f-8e9890538bca"
+      },
+      "execution_count": 5,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Half ticket\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "waterLevel = 30\n",
+        "\n",
+        "if waterLevel >= 50:\n",
+        "    print(\"Tank is fine\")\n",
+        "else:\n",
+        "    print(\"Turn on the motor\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "hwiRvbOTFBw8",
+        "outputId": "6761b76a-6bea-4115-bc5e-4c4e99c3e14f"
+      },
+      "execution_count": 6,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Turn on the motor\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "number = 35\n",
+        "\n",
+        "if number % 5 == 0:\n",
+        "    print(\"Divisible by 5\")\n",
+        "else:\n",
+        "    print(\"Not divisible by 5\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "VxBgus9JFYyR",
+        "outputId": "bd058c47-5345-47fd-b7ef-77f0fd8b2fc4"
+      },
+      "execution_count": 7,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Divisible by 5\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "balance = 800\n",
+        "withdrawAmount = 1000\n",
+        "\n",
+        "if balance >= withdrawAmount:\n",
+        "    print(\"Withdrawal successful\")\n",
+        "else:\n",
+        "    print(\"Insufficient balance\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "XifBIWArF1zq",
+        "outputId": "476f5249-78e9-4698-9b67-230ad848f7f2"
+      },
+      "execution_count": 8,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Insufficient balance\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "fuel = 45\n",
+        "\n",
+        "if fuel >= 75:\n",
+        "    print(\"Full tank\")\n",
+        "elif fuel >= 25:\n",
+        "    print(\"Half tank\")\n",
+        "else:\n",
+        "    print(\"Refill needed\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "nPm6OeDNF8wH",
+        "outputId": "59f5f9a5-3b04-4d6f-c75b-f91f5ee34790"
+      },
+      "execution_count": 9,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Half tank\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "speed = 85\n",
+        "\n",
+        "if speed > 100:\n",
+        "    print(\"Over speeding\")\n",
+        "elif speed > 60:\n",
+        "    print(\"Normal speed\")\n",
+        "else:\n",
+        "    print(\"Slow speed\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "s8rbm73hGQzf",
+        "outputId": "75122f6d-9f76-487b-e1c8-dde2447b591a"
+      },
+      "execution_count": 10,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Normal speed\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "dayNumber = 3\n",
+        "\n",
+        "if dayNumber == 1:\n",
+        "    print(\"Monday\")\n",
+        "elif dayNumber == 2:\n",
+        "    print(\"Tuesday\")\n",
+        "elif dayNumber == 3:\n",
+        "    print(\"Wednesday\")\n",
+        "elif dayNumber == 4:\n",
+        "    print(\"Thursday\")\n",
+        "else:\n",
+        "    print(\"Invalid day\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "YNFmCpF2GRlA",
+        "outputId": "a8c55706-d17e-4261-cfa3-cd9a877d572a"
+      },
+      "execution_count": 11,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Wednesday\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "battery = 25\n",
+        "\n",
+        "if battery < 10:\n",
+        "    print(\"Critical battery\")\n",
+        "elif battery < 30:\n",
+        "    print(\"Low battery\")\n",
+        "else:\n",
+        "    print(\"Battery OK\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "DWX8DN6HGfWd",
+        "outputId": "0c77e258-ab9c-4628-95f6-fba00d137d83"
+      },
+      "execution_count": 12,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Low battery\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "age = 45\n",
+        "\n",
+        "if age < 13:\n",
+        "    print(\"Child\")\n",
+        "elif age < 20:\n",
+        "    print(\"Teenager\")\n",
+        "elif age < 60:\n",
+        "    print(\"Adult\")\n",
+        "else:\n",
+        "    print(\"Senior citizen\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "keMYOqxAGsgV",
+        "outputId": "7d88e687-000a-4fbc-ec73-fb7ccb0e2218"
+      },
+      "execution_count": 13,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Adult\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "size = \"M\"\n",
+        "\n",
+        "if size == \"S\":\n",
+        "    print(\"Small pizza Rs 500\")\n",
+        "elif size == \"M\":\n",
+        "    print(\"Medium pizza Rs 800\")\n",
+        "elif size == \"L\":\n",
+        "    print(\"Large pizza Rs 1100\")\n",
+        "else:\n",
+        "    print(\"Invalid size\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "TW3GhZkuGvxl",
+        "outputId": "93e52768-7552-4f07-8a15-d5274c044617"
+      },
+      "execution_count": 14,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Medium pizza Rs 800\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "distance = 12\n",
+        "\n",
+        "if distance <= 5:\n",
+        "    print(\"Delivery charge: Rs 100\")\n",
+        "elif distance <= 15:\n",
+        "    print(\"Delivery charge: Rs 200\")\n",
+        "else:\n",
+        "    print(\"Delivery charge: Rs 350\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "KTxlZYUoG3M8",
+        "outputId": "582406a8-4fce-4c58-ba05-03e6ba5c79a5"
+      },
+      "execution_count": 15,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Delivery charge: Rs 200\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "percentage = 62\n",
+        "\n",
+        "if percentage >= 90:\n",
+        "    print(\"Outstanding\")\n",
+        "elif percentage >= 75:\n",
+        "    print(\"Very good\")\n",
+        "elif percentage >= 50:\n",
+        "    print(\"Good\")\n",
+        "else:\n",
+        "    print(\"Needs improvement\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "zGiAVGSfHenz",
+        "outputId": "a05be528-9a92-4104-b044-d9179a749215"
+      },
+      "execution_count": 16,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Good\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
